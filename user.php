@@ -38,7 +38,7 @@ class User extends CI_Controller {
 		$this->load->helper('url'); // redirect()使用
 
 		include APPPATH.'config/ucenter.php';
-        include './uc_client/client.php';
+        include './uc_client/client.php'; // 注意路径
 		
 	}
 
